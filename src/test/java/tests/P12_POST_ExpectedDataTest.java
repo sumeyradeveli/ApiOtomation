@@ -4,11 +4,12 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
+import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class P12 {
+public class P12_POST_ExpectedDataTest {
     /*
      https://restful-booker.herokuapp.com/booking url'ine
        asagidaki body'ye sahip bir POST request gonderdigimizde
@@ -45,6 +46,7 @@ public class P12 {
      */
 
 
+    @Test
     public void test01(){
         String url="https://restful-booker.herokuapp.com/booking";
         JSONObject bookingdates=new JSONObject();

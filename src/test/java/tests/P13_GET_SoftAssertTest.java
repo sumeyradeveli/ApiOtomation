@@ -7,7 +7,7 @@ import org.json.JSONObject;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class P13 {
+public class P13_GET_SoftAssertTest {
 
       /*
    http://dummy.restapiexample.com/api/v1/employee/3 url'ine
